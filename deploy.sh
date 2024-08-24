@@ -6,7 +6,7 @@ if [ -z "$GITHUB_PAT" ]; then
     exit 1
 fi
 
-# Define the remote URL (update with your actual remote URL)
+# Define the remote URL
 REPO_URL="https://$GITHUB_PAT@github.com/MasbaIUBAT/fahim.git"
 
 # Initialize a new Git repository
@@ -47,3 +47,4 @@ echo "Pushing changes to remote repository..."
 git push -u origin main
 
 echo "Script completed successfully!"
+
